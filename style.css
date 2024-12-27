@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px;
+    font-family: Courier New;
+
+}
+
+header {
+    display: flex;          /* Define o contêiner como flex */
+    align-items:center ;     /* Alinha verticalmente */
+    justify-content: space-between;   
+}
+
+.img_titulo {
+    display: flex;          /* Define o contêiner como flex */
+    /*justify-content: center;  Alinha horizontalmente (opcional) */
+    align-items:center ;     /* Alinha verticalmente */
+    font-size: 30px;
+}
+
+img {
+    width: 100px;   
+}
+
+.lista-horizontal {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;            /* Remove o padding da lista */
+    justify-content: flex-end;
+    text-align: right;
+}
+  
+  .lista-horizontal li {
+    display: inline; /* Exibe os itens em linha, mas permitindo controle de largura e altura */
+    margin-right: 20px;     /* Espaçamento entre os itens */
+    font-size: 16px;
+  }
+  
+  .lista-horizontal a {
+    text-decoration: none;  /* Remove o sublinhado dos links */
+    color: black;
+  }
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+    
+}
+
+.apresentacao__titulo {
+    font-size: 50px;
+    padding: 20px;
+    width: 30%;
+
+}
+
+.apresentacao__texto {
+    font-size: 24px;
+    padding: 20px;
+    width: 70%;
+    text-align: justify;
+
+}
+
